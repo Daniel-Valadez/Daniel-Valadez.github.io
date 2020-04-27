@@ -1,0 +1,3 @@
+This folder will house the assignment #2 html and css sheet. 
+The code blog will also go into this folder. The code blog will 
+be linked to the first code blog and the main code blog page. 
