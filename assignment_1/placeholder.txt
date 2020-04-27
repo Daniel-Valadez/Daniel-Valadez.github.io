@@ -1,0 +1,5 @@
+This file is just a placeholder because github cannot create an empty folder :)
+Assignment #1 will go into this folder from the main branch, and the main_blog.html and the style.css 
+file will stay at the upmost part of the heirarchy. 
+I'll need to make a folder for assignment #2 as well to get it published online. Once I'm done with assignment #2,
+then I'll need to create its code blog and link it to the main code blog page. 
