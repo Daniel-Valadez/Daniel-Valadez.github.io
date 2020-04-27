@@ -1,0 +1,163 @@
+/* Daniel Valadez, CS290, 4-14-20*/
+body{
+	margin-top: 0px; 
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #EEEEEE;
+	font-family: sans-serif; 
+}
+
+a{
+	text-decoration: none; /*removes the underlines from the hyperlinks*/
+	color: black; /*Sets text text color in the link to black */ 
+}
+
+/*The block of code below covers the header of the webite with its title and logo...*/ 
+.site-title{ 
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	background-color: #309DF7;
+	margin-top: 0px;  
+	margin-left: 0px;
+	padding-left: 16px;
+	margin-right: 0px;  
+	color: white;
+	font-family: sans-serif; 
+	text-decoration: none; 
+}
+
+.navbar{
+	background-color: white; 
+	padding-top: .0005em;
+	padding-bottom: .025em;
+	position: relative; 
+	bottom: 20px;
+}
+
+/*The next block of code is for the navbar below the header */ 
+li{
+	display: inline; /*Moves everything meant to be in the navbar onto the same line. */
+}
+
+.navitem.navlink{
+	padding-right: 6px;
+	padding-left: 6px; 
+	font-size: 12pt; 
+	font-weight: 700;
+}
+
+/*Changes the colo of an item being hovered over in the navbar... */
+.navlist a:hover {
+	color: #309DF7; 
+}
+
+.navitem.navlink.active a{
+	border-bottom: 3px solid #309DF7;
+	padding-bottom: 14px;   
+}
+
+.navitem.navbar-search{
+	float: right;
+	margin-right: 16px; 
+}
+
+/*Directly edits the search box*/
+.navitem.navbar-search input{
+	background-color: #EEEEEE;
+	font-size: 12pt;
+	border-radius: 4px;
+	border: none;
+	padding: 5px;
+	font-family: sans-serif; 
+}
+
+.navitem.navbar-search input:focus{
+	background-color: white; 
+}
+
+.navitem.navbar-search button{
+	border: none;
+	background-color: white; 
+	font-size: 12pt;
+}
+
+.navitem.navbar-search button:hover{
+	color: #309DF7;
+}
+
+.twit-container{
+	width: 95%;
+	display: inline-flex;
+	text-align: center;
+	flex-wrap: wrap;
+	margin-left: 5%;
+	margin-top: 2%;  
+}
+
+/*The code below is more so to modify the style of the twit-boxes themselves*/
+.twit {
+	margin-top: 4px;
+	margin-bottom: 4px
+	margin-right: 4px;
+	margin-left: 4px;
+	/*width: 335px;
+	height: 125px;*/  
+	background-color: white;
+	display: flex;
+	flex-basis: 31.33%;
+	justify-content: center; 
+}
+
+.twit-icon{
+	padding-top: 40px; 
+	display: inline;
+}
+
+.twit-icon.fas.fa-bullhorn{
+}
+
+.twit-content{
+	width: 290px;
+	display: inline;
+	padding-top: 25px 
+}
+
+.twit-text{
+	word-wrap: normal;
+	text-align: left;
+	padding-left: 6px; 
+}
+
+/*Code below modifies what's inside the contents of the twit-boxes.*/
+
+.twit-author{
+	font-weight: bold; 
+	text-align: right; 
+}
+
+.twit-author a:hover{
+	color: #309DF7;
+}
+
+#create-twit-button{
+	background-color: #F9151C;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: none; 
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 2.5%;
+	margin-bottom: 2.5% 
+}
+
+#create-twit-button:hover{
+	background-color: #309DF7;
+}
+
+#create-twit-button .fas.fa-bullhorn{
+	font-size: 20pt;
+	color: white;
+}
