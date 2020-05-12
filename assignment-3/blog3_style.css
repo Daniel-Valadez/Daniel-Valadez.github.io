@@ -1,0 +1,38 @@
+body{
+	background-color: #282923; 
+	font-family: sans-serif;
+	margin-top: 0px; 
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+header{
+	background-color: #309DF7; 
+	font-size: 18pt; 
+	padding: 4px;
+	text-align: center;
+}
+
+.blog{
+
+	margin: 48px;
+	border: solid orange;
+}
+
+h3{
+	color: yellow;
+}
+
+.question{
+	text-align: center; 
+}
+
+p {
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 4px;
+	margin-right: 4px;
+	text-indent: 30px;
+	color: gold;
+}
