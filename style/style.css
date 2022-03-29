@@ -1,0 +1,134 @@
+/*Page*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f1f1;
+}
+
+/*Header Styling*/
+.navbar{
+    text-align: right;
+    background-color: #D73F09;
+}
+
+.navbar ul{
+    list-style-type: none; 
+    margin: 0;
+    padding: 1rem 2rem;
+}
+
+li{
+    display: inline;
+    padding: 2rem 3rem;
+}
+li a{
+    color: white;
+}
+li a:hover{
+    border-bottom: solid .125rem white;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Body styling*/
+section, footer {
+    padding: 1.35rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inner {
+    max-width: 56rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+/* tag styling */
+section p {
+    text-align: center;
+    margin-block-end: 1rem;
+    color: inherit;
+}
+
+p a{
+    color: #D73F09;
+}
+
+h2{
+    font-size: 2.8rem;
+    text-align: center;
+}
+section img{
+    max-width: 100%;
+    border-radius: .25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container{
+    max-width: 100%;
+    display: grid; 
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column;
+    justify-items: center;
+    gap: 1rem;
+}
+
+button{
+    border-radius: 0.5rem;
+    border-style: none;
+    margin: 0 1rem;
+    padding-block-start: 0.75rem;
+    padding-block-end: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+    background-color: #D73F09;
+}
+
+/*Footer Styling*/
+.media-container{
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5rem;
+}
+.social-icons img{
+    width: 100%;
+    max-width: 10rem;
+}
+
+/*Mobile layout*/
+@media only screen and (max-width: 56rem){
+    .navbar{
+        text-align: center; 
+    }
+    .container{
+        grid-template-columns: initial!important;
+        grid-auto-flow: row;
+    }
+
+    .media-container{
+        flex-direction: column;
+        row-gap: 2rem;
+        place-items: center;
+    }
+}

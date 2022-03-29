@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!--<!DOCTYPE HTML>
 
 <html>
 	<head>
@@ -10,14 +10,12 @@
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
 
-			<!-- Header -->
+	
 				<div id="header-wrapper">
 					<div id="header" class="container">
 
-						<!-- Logo -->
-							<h1 id="logo"><a href="#">Daniel's Portfolio</a></h1>
 
-						<!-- Nav --><!--
+							<h1 id="logo"><a href="#">Daniel's Portfolio</a></h1>
 							<nav id="nav">
 								<ul>
 									<li>
@@ -42,16 +40,15 @@
 									<li class="break"><a href="right-sidebar.html">Right Sidebar</a></li>
 									<li><a href="no-sidebar.html">No Sidebar</a></li>
 								</ul>
-							</nav><-->
+							</nav>
 
 					</div>
 				</div>
 
-			<!-- Main -->
+
 				<div class="wrapper">
 					<div class="container" id="main">
 
-						<!-- Content -->
 							<article id="content">
 								<header>
 									<h2>About Me</h2>
@@ -100,8 +97,6 @@
 						</div>
 					</div>
 				</div>
-
-			<!-- Footer -->
 				<div id="footer-wrapper">
 					<div id="footer" class="container">
 						<header class="major">
@@ -124,8 +119,6 @@
 				</div>
 
 		</div>
-
-		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
@@ -147,4 +140,80 @@
 			max-width: 5rem;
 		}
 	</style>
+</html>-->
+
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Daniel's Portfolio on Github</title>
+		<link rel="stylesheet" href="style/style.css" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	</head>
+
+	<body>
+		<!--This will be the navbar. It will have two pages, "home" and "about me".
+		Maybe a projects links as well.-->
+		<nav class="navbar">
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./aboutMe.html">About Me</a></li>
+			</ul>
+		</nav>
+		<section>
+			<div class="inner">
+				<h2>Projects</h2>
+				<p>
+					Here are some of the projects I have worked on in and school and as an intern.
+					The GitHub repositories for these projects are linked so that you may examine these projects and
+					run them locally for you to see the magic!
+				</p>
+				<div class="container">
+					<h3>Tweeter</h3>
+					<img src="images/TweeterScreenshot.png" alt="Tweeter project overview." />
+					<p>
+						A project from CS290 at Oregon State. 
+						This site was also reworked to use handlebars and be served using Node.js.
+						In it's most current version, it has been reworked and improved upon to utilize
+						React. 
+					</p>
+					<a href="#"><button>Take me to the GitHub repo!</button></a>
+				
+					<h3>Indow® Windows</h3>
+					<img src="images/IndowHomePageScreenshot.png" alt="Indow windows homepage overview." />
+					<p>
+						I spent the summer of 2021 in the <a href="https://www.emergingleaderspdx.org/" target="_blank">Emerging Leaders</a> 
+						cohort interning with Indow to help recreate their <a href="https://indowwindows.com/" target="_blank">company website</a> 
+						using <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a>.
+					</p>
+					<a href="https://indowwindows.com/" target="_blank"><button>Take me to Indow!</button></a>
+
+					<h3>SvelteKit Calendar</h3>
+					<img src="images/comingSoon.webp" alt="This is a project coming soon." />
+					<p>
+						This project is will be completed during the spring of 2022.
+						Primarily utilizing what I have learned through my internship with Indow, and
+						some other things learned along the way, SvelteKit Calendar will be a reactive 
+						daily planner. 
+					</p>
+					<a href="#"><button>Take me to the GitHub repo!</button></a>
+				</div>
+			</div>
+		</section>
+
+		<!--This will be the area for social media links and stuff like that-->
+		<footer>
+			<div class="inner">
+				<h2>Links to the Media</h2>
+				<div class="media-container">
+					<a class="social-icons" href="https://www.linkedin.com/in/daniel-valadez-9a3556182/" target="_blank">
+						<img src="images/linkedin.svg" alt="This is the LinkedIn logo." />
+					</a>
+					<a class="social-icons" href="https://www.instagram.com/daniel_valadez_/" target="_blank">
+						<img src="images/instagram.svg" alt="Instagram." />
+					</a>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
