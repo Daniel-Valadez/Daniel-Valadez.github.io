@@ -145,8 +145,6 @@ button:hover{
 
     .about-me{
         grid-auto-flow: row;
-    }
-    .about-me{
         text-align: center;
     }
 }
