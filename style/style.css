@@ -115,18 +115,6 @@ button:hover{
     width: 100%;
     max-width: 10rem;
 }
-
-/*About me styling*/
-/*.about-me{
-    display: grid;
-    grid-auto-flow: column;
-    gap: 3rem;
-}
-
-.about-me img{
-    max-width: 15rem;
-}*/
-
 /*Mobile layout*/
 @media only screen and (max-width: 56rem){
     .navbar{
@@ -141,10 +129,5 @@ button:hover{
         flex-direction: column;
         row-gap: 2rem;
         place-items: center;
-    }
-
-    .about-me{
-        grid-auto-flow: row;
-        text-align: center;
     }
 }

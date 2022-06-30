@@ -14,9 +14,9 @@
 		</nav>
         <section>
             <div class="inner">
-                <div class="about-me" style="display: grid; grid-auto-flow: column; gap: 3rem;">
+                <div class="about-me">
                     <div>
-                        <img src="images/me.jpg" alt="Daniel Valadez" style="max-width: 15rem;" /> 
+                        <img src="images/me.jpg" alt="Daniel Valadez" /> 
                     </div>
                     <div>
                         <p>
@@ -38,4 +38,21 @@
         </section>
     </body>    
 </html> 
+
+<style>
+    .about-me{
+        display: grid; 
+        grid-auto-flow: column; 
+        gap: 3rem;
+    }
+    .about-me img{
+        max-width: 15rem;
+    }
+    @media only screen and (max-width: 56rem){
+        .about-me{
+        grid-auto-flow: row;
+        text-align: center;
+    }
+}
+</style>
 
